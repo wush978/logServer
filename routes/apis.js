@@ -14,6 +14,8 @@ router.post('/getManyRecords', function(req, res) {
 			console.log('The err is: ', err);
 		else{
 			res.header("Access-Control-Allow-Origin", "http://wush978.github.io");
+			res.header("Access-Control-Allow-Origin", "http://www.datascienceandr.org");
+			res.header("Access-Control-Allow-Origin", "http://datascienceandr.org");
 			res.header("Access-Control-Allow-Headers", "X-Requested-With");
 			res.json(rows);
 		}
